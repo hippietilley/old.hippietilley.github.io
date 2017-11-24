@@ -7,9 +7,7 @@ body {
   padding: 0;
   font-family: "Courier New";
   background-image: url(https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyDA_gxmZSuskixZvduEJP7Y_-aMSGQDxVI&
-    center=35.12929790045169,-89.97078695&zoom=11&
-    format=png&
-    maptype=roadmap&
+    center=35.12929790045169,-89.97078695&zoom=11&format=png&maptype=roadmap&
     style=element:geometry%7Ccolor:0x212121&
     style=element:labels%7Cvisibility:off&
     style=element:labels.icon%7Cvisibility:off&
@@ -36,6 +34,7 @@ body {
     style=feature:transit%7Celement:labels.text.fill%7Ccolor:0x757575&
     style=feature:water%7Celement:geometry%7Ccolor:0x000000&
     style=feature:water%7Celement:labels.text.fill%7Ccolor:0x3d3d3d&size=480x360);
+    background-size: cover;
 }
 a {
   text-decoration: none;
